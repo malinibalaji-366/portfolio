@@ -1,8 +1,8 @@
 const projects = [
     {
-        title: "Market Presence of Zomato - Power BI",
-        description: "Interactive dashboard analyzing orders & trends.",
-        tags: ["Power BI", "Excel"],
+        title: "Detection of Vulnerabilities Using Kali Linux",
+        description: "Analysis of vulnerabilities in a simulated environment.",
+        tags: ["Kali Linux", "VirtualBox"],
         demo: "#",
         github: "#"
     },
@@ -14,11 +14,18 @@ const projects = [
         github: "https://sakuradoll.github.io/portfolio/"
     },
     {
-        title: "Detection of Vulnerabilities Using Kali Linux",
-        description: "Analysis of vulnerabilities in a simulated environment.",
-        tags: ["Kali Linux", "VirtualBox"],
+        title: "Market Presence of Zomato - Power BI",
+        description: "Interactive dashboard analyzing orders & trends.",
+        tags: ["Power BI", "Excel"],
         demo: "#",
         github: "#"
+    },
+    {
+        title: "Netflix Clone (React Movie App)",
+        description: "Built a Netflix clone using React with real-time movie data, search functionality, and trailer playback, deployed on Netlify.",
+        tags: ["React.js", "Vite","Axios" , "TMDB API", "Netlify","CSS","JavaScript (ES6+)"],
+        demo: "https://mali-movies-app.netlify.app/",
+        github: "https://mali-movies-app.netlify.app/"
     }
 ];
 function loadProjects() {
