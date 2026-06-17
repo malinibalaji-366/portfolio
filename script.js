@@ -1,5 +1,19 @@
 const projects = [
     {
+        title: "Volunteer Registration System",
+        description: "Built a full-stack Volunteer Registration System using the MERN stack featuring JWT-based admin authentication, volunteer CRUD operations, a responsive admin dashboard, and CSV report generation for efficient volunteer data management.",
+        tags: ["React.js", "Node.js","Express.js", "MongoDB","JWT","Axios","CSS","JavaScript (ES6+)"],
+        demo: "https://volunteerregistrationapp.netlify.app/",
+        github: "https://github.com/malinibalaji-366/Volunteer_Registration_System"
+    },   
+     {
+        title: "Netflix Clone (React Movie App)",
+        description: "Built a Netflix clone using React with real-time movie data, search functionality, and trailer playback, deployed on Netlify.",
+        tags: ["React.js", "Vite","Axios" , "TMDB API", "Netlify","CSS","JavaScript (ES6+)"],
+        demo: "https://mali-movies-app.netlify.app/",
+        github: "https://mali-movies-app.netlify.app/"
+    },
+    {
         title: "Detection of Vulnerabilities Using Kali Linux",
         description: "Analysis of vulnerabilities in a simulated environment.",
         tags: ["Kali Linux", "VirtualBox"],
@@ -19,14 +33,8 @@ const projects = [
         tags: ["Power BI", "Excel"],
         demo: "#",
         github: "#"
-    },
-    {
-        title: "Netflix Clone (React Movie App)",
-        description: "Built a Netflix clone using React with real-time movie data, search functionality, and trailer playback, deployed on Netlify.",
-        tags: ["React.js", "Vite","Axios" , "TMDB API", "Netlify","CSS","JavaScript (ES6+)"],
-        demo: "https://mali-movies-app.netlify.app/",
-        github: "https://mali-movies-app.netlify.app/"
     }
+
 ];
 function loadProjects() {
     const container = document.getElementById("project-list");
