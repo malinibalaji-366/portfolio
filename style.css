@@ -1,0 +1,187 @@
+/* ---------------- RESET ---------------- */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* ---------------- BODY ---------------- */
+body{
+  background:#eef1f7;
+  color:#1a1a1a;
+  font-family:"Segoe UI",sans-serif;
+  line-height:1.6;
+}
+
+/* ---------------- CONTAINER ---------------- */
+.container{
+  max-width:950px;
+  margin:40px auto;
+  padding:20px;
+}
+
+/* ---------------- HEADER ---------------- */
+header{
+  background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+  color:white;
+  padding:55px 30px;
+  border-radius:16px;
+  text-align:center;
+  margin-bottom:30px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.15);
+  animation:fadeDown 0.9s ease;
+}
+
+header h1{
+  font-size:38px;
+  font-weight:700;
+}
+
+header p{
+  margin-top:6px;
+  color:#cbd5e1;
+}
+
+/* ---------------- CARDS (Glass UI) ---------------- */
+.card{
+  background:rgba(255,255,255,0.65);
+  backdrop-filter:blur(12px);
+  padding:25px;
+  border-radius:16px;
+  margin-top:24px;
+  border:1px solid rgba(255,255,255,0.4);
+  box-shadow:0 8px 20px rgba(0,0,0,0.07);
+  transition:0.25s ease;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 12px 24px rgba(0,0,0,0.12);
+}
+
+/* ---------------- SECTION HEADINGS ---------------- */
+h2{
+  font-size:22px;
+  margin-bottom:15px;
+  padding-left:12px;
+  border-left:5px solid #334155;
+}
+
+/* ---------------- SKILLS TAGS ---------------- */
+.skills-list span{
+  display:inline-block;
+  background:linear-gradient(135deg,#e0e7ff,#c7d2fe);
+  color:#1e293b;
+  padding:8px 14px;
+  margin:6px;
+  border-radius:12px;
+  font-size:14px;
+  font-weight:500;
+  box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* ---------------- FLEX ROW ---------------- */
+.row{
+  display:flex;
+  gap:22px;
+  flex-wrap:wrap;
+}
+.col{
+  flex:1;
+  min-width:270px;
+}
+
+/* ---------------- BUTTONS ---------------- */
+.btn{
+  display:inline-block;
+  background:#0f172a;
+  padding:10px 16px;
+  color:white;
+  text-decoration:none;
+  border-radius:10px;
+  margin-top:12px;
+  font-size:14px;
+  font-weight:500;
+  box-shadow:0 3px 10px rgba(0,0,0,0.15);
+  transition:0.25s ease;
+}
+
+.btn:hover{
+  background:#1e293b;
+  transform:translateY(-2px);
+}
+
+/* ---------------- PROJECT CARDS ---------------- */
+.project{
+  background:rgba(255,255,255,0.7);
+  padding:18px;
+  border-radius:14px;
+  margin-top:18px;
+  border:1px solid rgba(0,0,0,0.05);
+  box-shadow:0 6px 15px rgba(0,0,0,0.06);
+  transition:0.25s;
+}
+.project:hover{
+  transform:translateY(-5px);
+}
+
+/* ---------------- FOOTER ---------------- */
+footer{
+  text-align:center;
+  margin-top:30px;
+  padding:18px;
+  color:#475569;
+  font-size:14px;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media(max-width:600px){
+  header{ padding:40px 18px; }
+  h1{ font-size:28px; }
+  .container{ padding:10px; }
+}
+
+/* ---------------- ANIMATION ---------------- */
+@keyframes fadeDown{
+  from{opacity:0; transform:translateY(-20px);}
+  to{opacity:1; transform:translateY(0);}
+}
+h1, h2, h3 {
+  letter-spacing: 0.5px;
+}
+
+p {
+  color: #334155;
+}
+.project .skills-list span {
+  background: #f1f5f9;
+  font-size: 13px;
+  margin: 4px 4px 8px 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.btn:hover{
+  background:#1e293b;
+  transform:translateY(-3px) scale(1.03);
+}
+a {
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.card {
+  animation: fadeUp 0.8s ease;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+body{
+  background: linear-gradient(135deg, #e2e8f0, #f8fafc);
+}
