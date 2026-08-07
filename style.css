@@ -310,4 +310,9 @@ font-weight:700;
 .dark nav ul li a.active{
 color:#60a5fa;
 }
+
+.contact-card:hover{
+    transform: translateY(-8px);
+    transition:.3s;
+}
 }
