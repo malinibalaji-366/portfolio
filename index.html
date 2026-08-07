@@ -1,70 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Malini | Portfolio</title>
-        <link rel="stylesheet" href="style.css"> 
-   </head>
-   <body>
+<head>
 
-    <div class="container">
-        <header>
-            <h1>Hello , I'm Malini Balaji</h1>
-            <p>Aspiring Software Developer & Web Developer</p>
-        </header>
-     
-        <section class="card" id="about">
-            <h2>About Me</h2>
-            <p>Aspiring Junior Software Developer with a strong foundation in web development, programming, and data analysis. Hands-on experience building responsive web projects, creating Power BI dashboards, and supporting documentation using internal software tools. Seeking an entry-level Software Developer or Software Trainee role to contribute technical skills and grow in a professional IT environment
-            </p>
-        </section>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <div class="row">
-             <div class="col card" id="skills">
-                <h2>Skills</h2>
+<title>Malini Balaji | Portfolio</title>
 
-                <div class="skills-list">
-                    <span>Python</span>
-                    <span>C</span>
-                    <span>C++</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>Mongo DB</span>
-                    <span>Bootstrap</span>
-                    <span>MySQL</span>
-                    <span>Git</span>
-                    <span>Power BI</span>
-                </div>
-            </div>
+<link rel="stylesheet" href="style.css">
 
-            <div class="col card" id="contact">
-                <h2>Contact</h2>
-                <p><strong>Email:</strong> balaji.malinisri@gmail.com</p>
-                <p><strong>Phone:</strong> 9629391872</p>
-                <p><strong>LinkedIn:</strong> 
-                <a href="https://www.linkedin.com/in/malini-balaji-11983b325" target="_blank">linkedin.com/in/malini-balaji-11983b325</a></p>
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
 
-                <a class="btn" href="mailto:balaji.malinisri@gmail.com">Email Me</a>
-            </div>
-        </div>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-        <section class="card" id="projects">
-            <h2>Projects</h2>
-            <div id="project-list"></div>
-        </section>
+<link
+href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+rel="stylesheet">
 
-        <section class="card" id="resume">
-            <h2>Resume</h2>
-            <a href="malini balaji resume.pdf" class="btn" download>Download Resume (PDF)</a>
-        </section>
+</head>
 
+<body>
 
-        <footer>
-            <p>© 2025 Malini Balaji. All Rights Reserved.</p>
-        </footer>
-    </div>
-    <script src="script.js"></script>
-   </body>
+<header>
+
+<nav>
+
+<div class="logo">
+
+Malini.
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="theme">
+
+<i class="fa-solid fa-moon" id="themeToggle"></i>
+
+</div>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-left" data-aos="fade-right">
+
+<h3>Hello 👋 I'm</h3>
+
+<h1>Malini Balaji</h1>
+
+<h2>
+
+<span id="typing"></span>
+
+</h2>
+
+<p>
+
+Passionate Full Stack Developer who enjoys building modern websites and web applications.
+
+</p>
+
+<div class="buttons">
+
+<a href="#projects" class="btn">
+
+View Projects
+
+</a>
+
+<a href="resume.pdf" class="btn2">
+
+Download Resume
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right" data-aos="fade-left">
+
+<img src="images/profile.jpg" alt="profile">
+
+</div>
+
+</section>
+
+<section id="about" data-aos="fade-up">
+
+<h2>About Me</h2>
+
+<p>
+
+I am a Computer Science graduate passionate about Full Stack Development.
+
+I enjoy creating beautiful websites using HTML, CSS, JavaScript, React and Python.
+
+Currently looking for Software Developer opportunities.
+
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2 data-aos="fade-up">Skills</h2>
+
+<div class="skill-grid">
+
+<div class="card">Python</div>
+
+<div class="card">React</div>
+
+<div class="card">JavaScript</div>
+
+<div class="card">HTML5</div>
+
+<div class="card">CSS3</div>
+
+<div class="card">MySQL</div>
+
+<div class="card">MongoDB</div>
+
+<div class="card">Git</div>
+
+<div class="card">Bootstrap</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 data-aos="fade-up">Projects</h2>
+
+<div class="project-container">
+
+<div class="project" data-aos="zoom-in">
+
+<img src="images/netflix.png">
+
+<h3>Netflix Clone</h3>
+
+<p>
+
+React + TMDB API
+
+</p>
+
+<a href="https://mali-movies-app.netlify.app/" target="_blank">
+
+Live Demo
+
+</a>
+
+</div>
+
+<div class="project" data-aos="zoom-in">
+
+<img src="images/volunteer.png">
+
+<h3>Volunteer Registration</h3>
+
+<p>
+
+MERN Stack Application
+
+</p>
+
+<a href="#">
+
+GitHub
+
+</a>
+
+</div>
+
+<div class="project" data-aos="zoom-in">
+
+<img src="images/aiverse.png">
+
+<h3>AIVerse</h3>
+
+<p>
+
+AI Learning Platform
+
+</p>
+
+<a href="#">
+
+Coming Soon
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 data-aos="fade-up">
+
+Contact Me
+
+</h2>
+
+<div class="contact-box">
+
+<p>
+
+<i class="fa-solid fa-envelope"></i>
+
+balaji.malinisri@gmail.com
+
+</p>
+
+<p>
+
+<i class="fa-brands fa-github"></i>
+
+github.com/malinibalaji-366
+
+</p>
+
+<p>
+
+<i class="fa-brands fa-linkedin"></i>
+
+linkedin.com/in/malini-balaji-11983b325
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+Made with ❤️ by Malini Balaji
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init();
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
 </html>
